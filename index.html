@@ -2614,7 +2614,7 @@ go("cover");
 /* ===== GATE — controle de acesso ===== */
 /* CONFIG: cole aqui o link do seu checkout (Kiwify) entre as aspas. Deixe vazio pra esconder o botão. */
 (function(){
-  var CHECKOUT="";  /* >>> COLE AQUI O LINK DA KIWIFY (ex: https://pay.kiwify.com.br/xxxxx) pra aparecer o botao "Comprar acesso" <<< */
+  var CHECKOUT="https://pay.kiwify.com.br/oVERYD7";
   var HASHES=[3500029379540084,2656186835572723,8494826462235660,6471783723199729,6810402626958707,8638489697991051,4593261079814850,1845735863183150,4819533239522743,265304363898603,8779882775120816,5908191726386933,3316109318271395,5733529693524208,2136998833310753,7971413705846272,8306177750336371,8697038982401371,2713850611099449,6706747366163877,5713465169942651,2865884892835503,1730362345577147,5481313594750440,1986717234906874];
   var KEY="mlos_access_v1";
   function cyrb53(str,seed){seed=seed||7;var h1=0xdeadbeef^seed,h2=0x41c6ce57^seed;for(var i=0,ch;i<str.length;i++){ch=str.charCodeAt(i);h1=Math.imul(h1^ch,2654435761);h2=Math.imul(h2^ch,1597334677);}h1=Math.imul(h1^(h1>>>16),2246822507);h1^=Math.imul(h2^(h2>>>13),3266489909);h2=Math.imul(h2^(h2>>>16),2246822507);h2^=Math.imul(h1^(h1>>>13),3266489909);return 4294967296*(2097151&h2)+(h1>>>0);}
